@@ -11,7 +11,7 @@ The script writes the decrypted bytes to stdout if no outfile is given.
 from pathlib import Path
 import sys
 
-ALPHABET = "RfI+y$5t6ox*Hd9AQZXnNgVj0kTSMPr)EJ(!B&bU@sGLmw-?8p1e<CWqKi#z=c%l" #probably changes, you can get this one from the first stage
+ALPHABET = "f)C1702GoS5rd&Z%s(T>_FEgJMKOkDNI-#RlYj*p+!?QA6=XnyU3LxvWP@8cietz" #probably changes, you can get this one from the first stage
 assert len(ALPHABET) == 64 and len(set(ALPHABET)) == 64, "alphabet must be 64 unique chars"
 
 
